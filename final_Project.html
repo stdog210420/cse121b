@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liliean & friends' Store</title>
+    <link rel="stylesheet" href="styles/final_Project.css"> <!--The link tag tells the html file where to find the CSS it should use to style the page. -->
+</head>
+<body>
+     <div id="content"><!-- We need to set a max-width so when our page gets so big, it will stop growing in size.  -->
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.png" alt="Liliean & friends" >
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="rafting-route.html">Handmade</a>
+                <a href="site-plan-rafting.html">Accessory</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/unicorn1.jpg" alt="unicorn">
+            </div>
+            <section id="hero-msg">
+                <h1 class="home-title">莉莉安 & 朋友們的店</h1>
+                <h4>綻放獨特美感，實用無限心意</h4>
+                <div class="button-box">
+                    <a class="book" href="contactus.html">Buy Now</a>
+                </div>
+            </section>
+        </div>
+        <main class="home-grid">
+
+            <section class="rivers-card">
+                <img class="card-img" src="images/cabin.jpg" alt="river in forest">
+                <img class="icon" src="images/handbag.png" alt="river icon">
+                <h2>Handmade</h2>
+            </section>
+            <section class="camping-card">
+                <img class="card-img" src="images/tent.jpg" alt="tent in mountains">
+                <img class="icon" src="images/pamela-hat.png" alt="fire icon">
+                <h2>Accessory</h2>
+            </section>
+            <section class="rapids-card">
+                <img class="card-img" src="images/temple.jpg" alt="rafting boat">
+                <img class="icon" src="images/wedding.png" alt="oars icon">
+                <h2>Others</h2>
+            </section>
+            <div id="background"></div> <!--We will be using an empty <div> tag to hold a background color for our message. -->
+            <img class="mountains" src="images/bag2.jpg" alt="Misty mountains">
+            <section class="msg">
+                <h2>Seashell bouquet-shaped mini tote bag</h2>
+                <p>perfect for carrying your own little secrets! ❤️❤️❤️ </p>
+                <a class='join' href="rivers.html">Join Us</a>
+            </section>
+
+                                    <!-- Product List -->
+            <section class="product-list">
+                <h2>Products</h2>
+                <select id="sortBy" title="Choose a data filter.">
+                    <option value="" disabled selected>選擇產品</option>
+                    <option value="handbag">束口提袋</option>
+                    <option value="notHandbag">其他</option>
+                    <option value="all">全部</option>
+                </select>
+                <ul>
+                    <li id="products">
+                    <!-- Product items will be generated here -->
+                    </li>   
+                </ul>
+            <!-- Shopping Cart -->
+                <div id="cart">
+                    <h2>購物車</h2>
+                    <ul id="cart-items">
+                        <!-- 購物車商品將顯示在這裡 -->
+                    </ul>
+                    <p id="quantity">合計: 0</p>
+                    <p id="total">總金額: $0</p>
+                </div>  
+                <div>
+                    <button id="clearCart">清除購物車</button>
+                </div>       
+            </section>
+
+        </main>
+        <footer>
+            <p>Handmade &copy; 2023 - Sin Yi Lin</p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://shopee.com" target="_blank">
+                    <img src="images/shopee.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/pchome.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="scripts/final_Project.js"></script>
+</body>
+</html>

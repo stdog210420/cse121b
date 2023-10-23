@@ -1,0 +1,34 @@
+[
+    {
+        "productId": 1,
+        "productName": "貝殼花束口小提袋(紫羅蘭)",
+        "class":"束口提袋",
+        "price": 800,
+        "quantity": 5,
+        "imageUrl": "https://stdog210420.github.io/best_sale/images/bag1.jpg"
+    },
+    {
+        "productId": 2,
+        "productName": "貝殼花束口小提袋(櫻花粉)",
+        "class":"束口提袋",
+        "price": 800,
+        "quantity": 10,
+        "imageUrl": "https://stdog210420.github.io/best_sale/images/bag3.jpg"
+    },
+    {
+        "productId": 3,
+        "productName": "貝殼花手機袋(櫻花粉)",
+        "class":"手機袋",
+        "price": 800,
+        "quantity": 2,
+        "imageUrl": "https://stdog210420.github.io/best_sale/images/bag4.jpg"
+    },
+    {
+        "productId": 4,
+        "productName": "貝殼花水壺提袋(天空藍)",
+        "class":"水壺提袋",
+        "price": 800, 
+        "quantity": 1,
+        "imageUrl": "https://stdog210420.github.io/best_sale/images/bag5.jpg"
+        }
+]
